@@ -11,6 +11,7 @@ public class VehicleExample {
 		
 		Bus bus1 = (Bus) vehicle;
 		Bus bus2 = new Bus();
+		
 		bus2.run();
 		bus2.checkFare();
 		System.out.println(bus1);
